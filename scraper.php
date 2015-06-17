@@ -1,5 +1,7 @@
 <?
-print "Hello, coding in the cloud!";
+
+$html = scraperWiki::scrape("http://web.archive.org/web/20110514112442/http://unstats.un.org/unsd/demographic/products/socind/education.htm");           
+print $html . "\n";
 // This is a template for a PHP scraper on morph.io (https://morph.io)
 // including some code snippets below that you should find helpful
 
